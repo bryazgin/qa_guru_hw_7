@@ -12,8 +12,8 @@ with ZipFile('test_file.zip', mode='a') as zf:
 
 if not os.path.exists('tmp'):
     os.mkdir('tmp')
-os.rename('/Users/sergeybryazgin/PycharmProjects/qa_guru_hw_7/tests/test_file.zip',
-          '/Users/sergeybryazgin/PycharmProjects/qa_guru_hw_7/tests/tmp/test_file.zip')
+os.rename('/Users/bryazgin/PycharmProjects/qa_guru_hw_7/tests/test_file.zip',
+          '/Users/bryazgin/PycharmProjects/qa_guru_hw_7/tests/tmp/test_file.zip')
 
 #def file_check():
     #проверить, что файл в архиве является тем, что был в resources
