@@ -5,8 +5,3 @@ TESTS_PATH = os.path.join(PROJECT_ROOT_PATH, 'tests')
 RESOURCES_PATH = os.path.join(TESTS_PATH, 'resources')
 TMP_PATH = os.path.join(TESTS_PATH, 'tmp')
 ZIP_PATH = os.path.join(TMP_PATH, 'test_file.zip')
-
-print(PROJECT_ROOT_PATH)
-print(RESOURCES_PATH)
-print(TMP_PATH)
-print(ZIP_PATH)
